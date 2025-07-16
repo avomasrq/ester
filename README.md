@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# EsterVerse Dream Layout
 
-## Project info
+A universe full of smiles, stories, and stardust — all about Ester. This is a playful, pastel-themed React app that celebrates friendship, memories, and cosmic fun, built with Vite, TypeScript, Tailwind CSS, and shadcn/ui components.
 
-**URL**: https://lovable.dev/projects/9acf363e-8588-4ad7-a33c-ba32718956d9
+## ✨ Features
+- Hero section with cosmic welcome
+- About Ester: fun facts and personality highlights
+- Gallery of treasured moments
+- 6 Reasons why Ester is the best
+- Memory timeline of key events
+- Random quote generator (“What Would Ester Say?”)
+- Animated star field and pastel gradients
+- Responsive, modern, and accessible UI
 
-## How can I edit this code?
+## 🚀 Getting Started
 
-There are several ways of editing your application.
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm (v9+) or bun
 
-**Use Lovable**
+### Installation
+```bash
+# Clone the repo
+ git clone <your-repo-url>
+ cd esterverse-dream-layout-main
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9acf363e-8588-4ad7-a33c-ba32718956d9) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Install dependencies
+ npm install
+# or
+ bun install
 ```
 
-**Edit a file directly in GitHub**
+### Development
+```bash
+npm run dev
+# or
+bun run dev
+```
+Visit [http://localhost:5173](http://localhost:5173) to view the app.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+### Preview Production Build
+```bash
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🗂️ Project Structure
+```
+esterverse-dream-layout-main/
+├── public/           # Static assets
+├── src/
+│   ├── assets/       # Images
+│   ├── components/   # UI and page sections
+│   ├── hooks/        # Custom React hooks
+│   ├── lib/          # Utilities
+│   ├── pages/        # Page components (Index, NotFound)
+│   ├── App.tsx       # Main app component
+│   ├── main.tsx      # Entry point
+│   └── index.css     # Tailwind and custom styles
+├── package.json      # Project metadata and scripts
+├── tailwind.config.ts
+└── README.md
+```
 
-## What technologies are used for this project?
+## 🛠️ Tech Stack
+- [React 18](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/) (Radix UI + custom components)
+- [React Router](https://reactrouter.com/)
+- [TanStack React Query](https://tanstack.com/query/latest)
+- [Lucide Icons](https://lucide.dev/)
 
-This project is built with:
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-## How can I deploy this project?
+## 📄 License
+[MIT](LICENSE)
 
-Simply open [Lovable](https://lovable.dev/projects/9acf363e-8588-4ad7-a33c-ba32718956d9) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> Made with ☕, 💖, and ✨ for Ester — where friendship shines brightest!
